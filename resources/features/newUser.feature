@@ -13,7 +13,7 @@ Funcionalidade: Inserir novo usuário
 
     Exemplos: 
       | nome       | email                      | senha      | mensagem                     |
-      | Fernando_5 | fernando_teste5@gmail.com  | teste123   | Bem vindo, Fernando_5!       |
+      | Fernando_6 | fernando_teste6@gmail.com  | teste123   | Bem vindo, Fernando_6!       |
       | Fernando_2 |                            | teste12356 | Email é um campo obrigatório |
       |            |                            | teste12356 | Nome é um campo obrigatório  |
       |            | cristiano_teste1@gmail.com |            | Senha é um campo obrigatório |
