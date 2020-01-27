@@ -11,8 +11,10 @@ public class IncluirMovimentacao  extends PaginaMestra{
 		super(browser);
 	}
 
-		public IncluirMovimentacao incluirNovaMovimentacao(String data_transacao, String data_pagamento,
+		public IncluirMovimentacao incluirNovaMovimentacao(String tpMov2imentacao,String data_transacao, String data_pagamento,
 				String descricao, String interessado, String valor) {
+			
+			
 			
 			//refere-e ao campo data movimentação
 			browser.findElement(By.id("data_transacao")).sendKeys(data_transacao);

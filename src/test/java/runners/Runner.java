@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(
 		glue = "steps",
-		features = "resources/features/incluir_nova_conta.feature"
+		features = "resources/features/incluir_movimentacao.feature"
 		)
 @RunWith(Cucumber.class)
 public class Runner {

@@ -36,7 +36,7 @@ public class NewUserSteps {
 
 	@After("@novoUsuario")
 	public void tearDown() {
-		browser.quit();
+		//browser.quit();
 		
 	}
 	
